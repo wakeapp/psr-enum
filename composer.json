@@ -1,0 +1,15 @@
+{
+    "name": "wakeapp/psr-enum",
+    "type": "library",
+    "description": "Common Enum",
+    "keywords": ["wakeapp", "psr", "enum", "enum-interop", "enum-interface"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wakeapp\\Psr\\Enum\\": "src/"
+        }
+    }
+}
